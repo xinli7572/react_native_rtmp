@@ -22,3 +22,14 @@ VideoPresenter.getInstance().startReadVideo(url_, 4, 2, WIDTH, HEIGHT);
 
 https://github.com/user-attachments/assets/aec61934-0f0f-4d8d-bad3-ef2f83c77291
 
+### build.gradle
+```
+ndk {
+    abiFilters.add("armeabi-v7a")
+}
+```
+```
+sourceSets.all {
+    jniLibs.srcDirs("libs")
+}
+```
