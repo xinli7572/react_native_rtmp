@@ -1,7 +1,7 @@
 
 
 
-
+### Custom native Android component “MyImageViews" for displaying dynamic video live streams, using the OpenCV Android dynamic library to achieve a playback delay of less than 1 second.
 
 
 
