@@ -8,7 +8,7 @@
 ```
 <MyImageViews style={styles.image} imageUrls={url} param={msg} />
 ```
-### 2：android
+### 2：android native
 > react_native_rtmp/android/app/src/main/java/com/react_tst/newarchitecture/MyImageView.java
 ```
 VideoPresenter.getInstance().startReadVideo(url_, 4, 2, WIDTH, HEIGHT);
